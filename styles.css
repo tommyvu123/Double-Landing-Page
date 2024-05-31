@@ -43,7 +43,7 @@ h1{
     position: absolute;
     left: 0;
     background-color: pink;
-    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-blue-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987994");
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-whitetitanium-select?wid=940&hei=1112&fmt=png-alpha&.v=1692893991601");
     background-size: cover;
     background-position: center center;    
 }
@@ -52,7 +52,7 @@ h1{
     position: absolute;
     right: 0;
     background-color: lightblue;
-    background-image: url("https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E2_OynxBlack_Lockup_1600x1200.jpg?$product-details-jpg$");
+    background-image: url("https://images.samsung.com/is/image/samsung/p6pim/ph/sm-a346elvcphl/gallery/ph-galaxy-a34-5g-sm-a346-sm-a346elvcphl-535653478?$650_519_PNG$");
     background-size: cover;
 
 }
@@ -71,4 +71,8 @@ h1{
 
 .active-right .right{
     width: 75%;
+}
+
+.left , .right {
+    transition: width 2s ease-in-out;
 }
